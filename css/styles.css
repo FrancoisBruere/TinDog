@@ -1,0 +1,190 @@
+body {
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-align: center;
+}
+
+h1, h2, h3, h4{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* title */
+#title {
+  text-align: left;
+}
+
+.master-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* sections */
+
+.colored-section{
+  background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 0.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.0rem;
+  font-weight: bold;
+  right: auto;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22%;
+}
+
+@media(max-width:993px){
+  .title-img {
+    width: 40%;
+    right: 22%;
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
+}
+/* features section */
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-ico {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.feature-ico:hover {
+  color: #ff4c68;
+}
+
+.paragraph-feature {
+  color: #8f8f8f;
+}
+
+/* testimonial section */
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 4.5rem;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+.pricing-headers{
+  font-size: 1.5rem;
+}
+
+.pricing-h2{
+  font-size: 2.5rem;
+  line-height: 4.5rem;
+}
+
+.card{
+  justify-content: center;
+}
+
+#pricing{
+  padding: 100px;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* call to action */
+#cta{
+    background-color: #ff4c68;
+    font-family: "Montserrat";
+    padding: 10px;
+    height: 350px;
+    color: #fff;
+}
+
+.callfooter{
+  padding: 5% 3% 2% 3%;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.button-bottom{
+  padding: 0 2% 1% 2%;
+}
+
+.download-button-action{
+  margin: 30px 10px;
+}
+
+#footer{
+  background-color: #fff;
+}
+
+.paragraph-footer{
+    color: #8f8f8f;
+      font-family: "Montserrat";
+      height: 100px;
+      margin:  10px;
+}
+
+.fab-social{
+  padding: 5% 1% 1%;
+}
